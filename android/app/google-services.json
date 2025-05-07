@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479625373940",
+    "project_id": "transfusio-2707d",
+    "storage_bucket": "transfusio-2707d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479625373940:android:b55d92edbbead3969796a1",
+        "android_client_info": {
+          "package_name": "com.transfusio.www"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0xNW3GYQKWT69iaCtRdz-UGVHvoiHfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
