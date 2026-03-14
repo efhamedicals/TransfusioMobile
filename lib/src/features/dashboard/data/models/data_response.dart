@@ -16,7 +16,7 @@ class DataResponse {
   @JsonKey(name: "payments_amount")
   int? paymentsAmount = 0;
   @JsonKey(name: "average_hours")
-  String? averageHours = "";
+  int? averageHours = 0;
 
   DataResponse({
     this.status,

@@ -97,7 +97,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               ? ShimmerHelper.homeSmallStatShimmer(context)
                               : SmallStatWidget(
                                 title: 'Temps moyen Acqui',
-                                value: dashboardViewModel.averageHours.value,
+                                value:
+                                    dashboardViewModel.averageHours.value
+                                        .toString(),
                                 icon: FontAwesomeIcons.clock,
                                 bgColor: AppColors.colorOrange,
                               ),

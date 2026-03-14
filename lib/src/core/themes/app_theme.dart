@@ -56,14 +56,14 @@ class AppTheme {
       selectedItemColor: AppColors.primaryColor,
       selectedLabelStyle: TextStyle(fontSize: 12),
     ),
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
         //side: const BorderSide(width: 1.5, color: Colors.grey)
       ),
       elevation: 6,
     ),
-    tabBarTheme: const TabBarTheme(labelColor: Colors.black),
+    tabBarTheme: const TabBarThemeData(labelColor: Colors.black),
     sliderTheme: const SliderThemeData(trackHeight: 2),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.secondaryColor,
@@ -109,11 +109,11 @@ class AppTheme {
       selectedItemColor: AppColors.primaryColor,
       selectedLabelStyle: TextStyle(fontSize: 12),
     ),
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       elevation: 6,
     ),
-    tabBarTheme: const TabBarTheme(labelColor: Colors.white),
+    tabBarTheme: const TabBarThemeData(labelColor: Colors.white),
     sliderTheme: const SliderThemeData(trackHeight: 2),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.primaryColor,

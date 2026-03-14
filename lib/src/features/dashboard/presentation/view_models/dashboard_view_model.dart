@@ -23,7 +23,7 @@ class DashboardViewModel extends GetxController {
   RxInt totalRequests = 0.obs;
   RxInt paymentsCount = 0.obs;
   RxInt paymentsAmount = 0.obs;
-  RxString averageHours = "".obs;
+  RxInt averageHours = 0.obs;
 
   static RxInt totalNotifications = 0.obs;
 

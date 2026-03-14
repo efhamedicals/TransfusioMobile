@@ -16,7 +16,7 @@ DataResponse _$DataResponseFromJson(Map<String, dynamic> json) => DataResponse(
   pslRequestsCount: (json['psl_requests_count'] as num?)?.toInt(),
   paymentsCount: (json['payments_count'] as num?)?.toInt(),
   paymentsAmount: (json['payments_amount'] as num?)?.toInt(),
-  averageHours: json['average_hours'] as String?,
+  averageHours: (json['average_hours'] as num?)?.toInt(),
 );
 
 Map<String, dynamic> _$DataResponseToJson(DataResponse instance) =>
